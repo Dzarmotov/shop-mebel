@@ -11,7 +11,7 @@ export class ShowItem extends Component {
         <img src={canCelIcon} className="cancel-icon"/>
 
         </button>
-        <img
+        <img className="content-img"
           src={"./img/" + this.props.item.img}
         />
         <h2>{this.props.item.title}</h2>

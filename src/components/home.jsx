@@ -4,7 +4,7 @@ import Item from './item';
 export class Home extends Component {
   render() {
     return (
-      <main>
+      <main className='item-wrap'>
         {this.props.items.map(el => {
         return <Item 
         onShowItem={this.props.onShowItem} 
