@@ -6,7 +6,11 @@ export class Home extends Component {
     return (
       <main>
         {this.props.items.map(el => {
-        return <Item onShowItem={this.props.onShowItem} key={el.id} item={el} onAdd={this.props.onAdd}/>
+        return <Item 
+        onShowItem={this.props.onShowItem} 
+        key={el.id} 
+        item={el} 
+        onAdd={this.props.onAdd}/>
         })}
       </main>
     )
