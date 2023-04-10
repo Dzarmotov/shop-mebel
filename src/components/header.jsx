@@ -36,7 +36,7 @@ function Header(props) {
   return (
     <header>
       <div className="wrap">
-        <span className="logo">Mebel-Ing</span>
+        <span className="logo">Mebel</span>
         <ul className="nav">
           <li>О нас</li>
           <li>Контакты</li>
